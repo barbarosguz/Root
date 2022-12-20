@@ -1,0 +1,115 @@
+
+  body, html {
+    height: 100%;
+    margin: 0em;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  
+  nav {
+    display: flex;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    flex: 1;
+    text-align: center;
+  }
+  
+  nav a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 1em 0;
+  }
+  
+  nav a:hover {
+    background-color: #444;
+  }
+  
+  main {
+    height: auto;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+  text-align: center;
+    height: 50px;
+    display: flex;
+    margin-top: auto;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .left {
+    width: 50%;
+    float: left;
+    padding: 5em;
+    padding-left: 12em;
+  }
+
+  .right {
+    width: 30%;
+    float:right;
+    padding: 2em;
+  }
+
+  .row:after {
+    content: "";
+    display: table-column;
+    clear: both;
+  }
+  i{
+    font-size: 45px;
+    float: right;
+    padding: 10px;
+    width: auto;
+
+  }
+  .copyright{
+    text-align: center;
+  }
+  .email{
+    text-align: center;
+    padding-top: 0px;
+    font-size: 2.5em;
+}
+  .portifolio{
+   background-image: url("../images/code-gbdd7536b4_1280.jpg");
+    text-align: center;
+    padding-top: 0px;
+    font-size: 5.5em;
+    color: white;
+  }
+  .cv{
+    text-align: center;
+    padding-top: 0px;
+    font-size: 1.5em;
+    color: black;
+    
+  }
+  .pdf{
+    text-align: center;
+    width: 1000px;
+    height: 1000px;
+
+  }
