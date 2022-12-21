@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My Blog</title>
+  <title>Contact</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="Root/css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
@@ -23,22 +23,29 @@
   </nav>
   <div class="container">
     <main>
-      <div class="email">
-        <h2>Send an email</h2>
-        <a href="mailto:r0937464@student.thomasmore.be">
-          <p class="fa-regular fa-envelope"></p>
-        </a>
-      </div>
+      <section class="contactus">
+        <div class="contact-form">
+        <h1>Contact<span>.</span></h1>
+           
+        <form action="https://formspree.io/f/mwkjeqqn" method="POST">
+          <input type="text" name="name" id="name" placeholder="Your name" required>
+          <input type="email" name="email" id="email" placeholder="E-mail" required>
+          <input name="Subject" type="text" id="subject" placeholder="Write a Subject" required>
+          <textarea name="Message" id="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+          <input type="submit" name="submit" value="Submit" class="button">
+        </form>
+        </div>
+    </section>
+
     </main>
     <footer>
-        <div class="copyright">
-          <p>©️ Copyright Barbaros Guzel</p>
-        </div>
-        <div class="socials">
-          <i class="fa-brands fa-square-facebook" type="button" onclick="window.location.href='https://www.facebook.com/wiederschitzelzzzz/';" value="Click"></i>
-          <i class="fa-brands fa-square-instagram" type="button" onclick="window.location.href='https://www.instagram.com/lezugg/';" value="Click"></i>
-          <i class="fa-brands fa-square-twitter" type="button" onclick="window.location.href='https://twitter.com/?lang=nl';" value="Click"></i>
-        </div>
+      <div class="copyright">
+        <p>©️ Copyright Barbaros Guzel</p>
+      </div>
+      <div class="socials">
+        <a href="https://www.facebook.com/wiederschitzelzzzz/"><i class="fa-brands fa-square-facebook"></i></a>
+        <a href="https://www.instagram.com/lezugg/"><i class="fa-brands fa-square-instagram"></i></a>
+        <a href="https://twitter.com/?lang=nl"><i class="fa-brands fa-square-twitter"></i></a>
       </div>
     </footer>
   </div>
